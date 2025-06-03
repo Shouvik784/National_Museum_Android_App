@@ -1,0 +1,1181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.collections.CollectionsFragment">
+
+    <TextView
+        android:id="@+id/text_collections"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:padding="8dp"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/collections">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/collections"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="24dp"
+                android:text="Types of Collections"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <!-- Archaeology Collections-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:text="Archaeology Collections"
+                android:textColor="@color/gray"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Buddha Head"
+                android:src="@drawable/arch1" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Buddha Head"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="47.20 Buff Chunar Sandstone Sarnath, Uttar Pradesh Gupta, 5th Century, CE 26.6x16.2x21 cm."
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Bhu-Devi"
+                android:src="@drawable/arch2" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bhu-Devi"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="48.4/262 Bronze Nayaka, South India 17th Century CE Ht. 25.3 cm., Wd. 7.7 cm., Dep. 7.3 cm."
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Mohini"
+                android:src="@drawable/arch3" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mohini"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="50.190 Stone Gadag, Karnataka Western Chalukyan , 11th cent. CE. 92×41x18 cm"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Saraswati"
+                android:src="@drawable/arch4" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Saraswati"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1/6/278 Marble Pallu, Bikaner, Rajasthan Chauhan, 12th century CE. 77 x 46 x 22 cm"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Ardhanarisvara"
+                android:src="@drawable/arch5" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ardhanarisvara"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="47.109/13 Bronze Vijayanagar, South India 15th Century CE Ht. 71.0 cm ., Wd. 33.0 cm ., Dep. 25.5 cm."
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+            <!-- Arms and Armour Collections-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:text="Arms and Armour Collections"
+                android:textColor="@color/gray"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Helmet"
+                android:src="@drawable/arms1" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Helmet"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="96.216 Steel, gold, Hyderabad, 19th Century C.E Ht.52 cm, Dia. 20.7 cm"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Hilt"
+                android:src="@drawable/arms2" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hilt"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="62.2936 Jade, Semi-precious stone Mughal (Delhi), Early 17th Century C.E Lt. 12.6 cm"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Shield"
+                android:src="@drawable/arms3" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Shield"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="96.338 Steel, Cloth Dia. 54 cm"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Gun Powder"
+                android:src="@drawable/arms4" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gun Powder"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="61.66/1 Mother of pearls, iron Gujarat, 17th Century C.E Lt. 14.5 cm"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Chest-Plate (Char-aina)"
+                android:src="@drawable/arms5" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chest-Plate (Char-aina)"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="63.526 Steel Rajasthan, 18th Century C.E Lt. 85.3 cm, W. 17.4 cm"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+            <!-- Central Asian Antiquities Collections-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:text="Central Asian Antiquities Collections"
+                android:textColor="@color/gray"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Ladies in a garden"
+                android:src="@drawable/c1" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ladies in a garden"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ast.iii.4.010 a (2003/17/355) Silk Painting Astana 7th - 8th century C.E. 37.5 x 54 cm"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Thousand Buddha figure"
+                android:src="@drawable/c2" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thousand Buddha figure"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ch.00100 (2003/10/707) Embroidered Silk Textile Dunhuang 9th - 10th Century C.E."
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Two sheep in combat"
+                android:src="@drawable/c3" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Two sheep in combat"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hu.02 (2003/7/1927) Stucco Pei-ting 6th-7th cent. Height: 8.5 cm"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Buddha and the six monks"
+                android:src="@drawable/c4" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Buddha and the six monks"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="M.ili.003 (99/1/44) Wall painting Miranrd-4th century C.E."
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Monk seated in paryankasana"
+                android:src="@drawable/c5" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Monk seated in paryankasana"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="holding a scroll Ch.024 (99/7/19) Stucco Dunhuang Painting 7th - 10th cent. C.E. 17 x 2.6 x 27 cm."
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+            <!-- Decorative Arts Collections-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:text="Decorative Arts Collections"
+                android:textColor="@color/gray"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Box"
+                android:src="@drawable/d1" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Box"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="48.28 Jade, Gold Northern India 18th century Lt. 11.5; Wd. 6; Ht. 3.4 cm."
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Dasavatara shrine"
+                android:src="@drawable/d2" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dasavatara shrine"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="72.251/(a) Ivory, wood South India Late 18th century CE Lt. 22; Wd. 17.8; Ht. 15 cms"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Elephant with riders"
+                android:src="@drawable/d3" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Elephant with riders"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="87.503/1 Metal Western India 20th Century"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Small bird"
+                android:src="@drawable/d4" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Small bird"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="60.1618/5 Carnelian, Metal Northern/Western India 19th Century 5 x 3 cm."
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Venugopal, Ganesha and a saint"
+                android:src="@drawable/d5" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Venugopal, Ganesha and a saint"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="62.103 Wood South India 19th century 40.5 x 42 x 8.5 cm."
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+            <!-- Jewellery Collections-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:text="Jewellery Collections"
+                android:textColor="@color/gray"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Head ornament (sheeshphul)"
+                android:src="@drawable/j1" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Head ornament (sheeshphul)"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="57.10/6 Gold, rubies, emeralds, diamonds, pearls Rajasthan, India late 19th century"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Turban ornament (sarpech)"
+                android:src="@drawable/j2" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Turban ornament (sarpech)"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="57.10/9 Gold, diamonds, emeralds Rajasthan, India 19th century"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Bangle (gajredar kada)"
+                android:src="@drawable/j3" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bangle (gajredar kada)"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="87.1167/1 Gold, diamonds, rubies, pearls, enamel Bikaner, Rajasthan 19th century"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Head ornament (jhumar)"
+                android:src="@drawable/j4" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Head ornament (jhumar)"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="89.1030 Gold, diamonds, pearls Lucknow, Uttar Pradesh Late 19th century"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Necklace (manga malai)"
+                android:src="@drawable/j5" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Necklace (manga malai)"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="90.752 Gold, rubies, white sapphires South India Early 20th century"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+            <!-- Manuscript Collections-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:text="Manuscript Collections"
+                android:textColor="@color/gray"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Ashtasahasrika Prajnaparamita"
+                android:src="@drawable/manu1" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ashtasahasrika Prajnaparamita"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="70.3/3 Palm-lea 12th century C.E. Sanskrit; Pala 55.0 × 5.7cms"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Babur Crossing the river Saun: a Baburnama folio"
+                android:src="@drawable/manu2" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Babur Crossing the river Saun: a Baburnama folio"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="50.336 Paper: c. 1598 C.E. Persian; Nastaliq 26 x 17cm"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Babur supervising construction of reservoir at Istabul near Kabul"
+                android:src="@drawable/manu3" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Babur supervising construction of reservoir at Istabul near Kabul"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="50.336 Paper c. 1598 C.E. Persian; Nastaliq 26 x 17cm"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Jain Kalpasutra"
+                android:src="@drawable/manu4" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jain Kalpasutra"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="48.20 Pape 15th century C.E. Prakrit; Devanagari 12 x30cm"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Kammavacha"
+                android:src="@drawable/manu5" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kammavacha"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="51.20 Copperplate Manuscript 19th Century C.E. Pall; Burmese. 54 × 10.5 cms."
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+            <!-- Anthropology Collections-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:text="Anthropology Collections"
+                android:textColor="@color/gray"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Marriage Litter (Rahi)"
+                android:src="@drawable/anth1" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Marriage Litter (Rahi)"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="64.1270 Wood, Cloth Jharkhand, India 20th century C.E H. 146 cm"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="222dp"
+                android:contentDescription="Tent Hanging"
+                android:src="@drawable/anth2" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tent Hanging"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="70.169 Cotton, Mirror Bhavnagar, Gujarat, India 20th century C.E L. 196.5 cm"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Portable Shrine (Kavad)"
+                android:src="@drawable/anth3" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Portable Shrine (Kavad)"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="L-55-22 Stane Aihole, Karnataka Western Chalukya, 7th cent. CE. 135x109x23 cms"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Perak"
+                android:src="@drawable/anth4" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Perak"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="86.227 Textile, Fur, Semi-precious stones, Silver Ladakh, India 19th century C.E L. 69.5 cm ; Wd 40.5 cm"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Basket (Phen)"
+                android:src="@drawable/anth5" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Basket (Phen)"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="M01/41 Bamboo, Cane, Natural pigments Arunachal Pradesh, India 19th century C.E H. 47 cm; Dia: 40 cm"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+            <!-- Numismatics and Epigraphy Collections-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:text="Numismatics and Epigraphy Collections"
+                android:textColor="@color/gray"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Mughal Coin"
+                android:src="@drawable/n1" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mughal Coin"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="55.36/77 Silver India 1759 - 1806 C.E Dia- 2.4, Wt- 11.4 gm"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Mehrabi coin of Jalal-ud-Din Akbar"
+                android:src="@drawable/n2" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mehrabi coin of Jalal-ud-Din Akbar"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="60.1165/3546 Gold Agra, India 963-1014 A.H= 1556-1605 C.E"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Roman Byzantine coin"
+                android:src="@drawable/n3" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Roman Byzantine coin"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="54.14/91 Copper or Bronze"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Nepal Coin"
+                android:src="@drawable/n4" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nepal Coin"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="55.36/92 Silver Nepal 1799 - 1816 C.E Dia-2.6 cm Wt- 505 gm OSTR"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Indo- Greek Coin"
+                android:src="@drawable/n5" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Indo- Greek Coin"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="56.9/6 Silver India PL144 OPITZY 2nd Century B.C.E Length: 1.4 Width:1.4 Cm."
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+            <!-- Painting Collections-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:text="Painting Collections"
+                android:textColor="@color/gray"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Portrait of Rama (Srl Rama Chandra)"
+                android:src="@drawable/p1" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Portrait of Rama (Srl Rama Chandra)"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="63.1043 Basholi, Pahari, Jammu and Kashmir Early 18th century C.E. Water colour on paper 14.8 X 10.2 cm"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Portrait of Buraq"
+                android:src="@drawable/p2" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Portrait of Buraq"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="48.8/23 23.62x15.74 cms Paper"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Based on poetry of Jaideva's Gita-Govinda"
+                android:src="@drawable/p3" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Based on poetry of Jaideva's Gita-Govinda"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Style: Basohli, Pahari Date: 1730 C.E. Medium: opaque watercolor on paper Size: 20.5 x 31 c.m Accession no: 51.207/26"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="The Cosmic Form of Krishna- Vasudeva"
+                android:src="@drawable/p4" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Cosmic Form of Krishna- Vasudeva"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="88.6 Opaque water color on paper pasted on cloth, Mysore style, Karnataka, Late 19th century C.E. 94 x 84 cm with frame"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Radha and Krishna"
+                android:src="@drawable/p5" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Radha and Krishna"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Style: Jaipur, Rajasthan, Date: circa 1750 C.E. Opaque watercolor on paper, Size :67 x 46 c.m. Accession no: 56.59/57"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+
+            <!-- 7. Footer -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact: nationalmuseum@gmail.com\n© 2025 National Museum"
+                android:textSize="12sp"
+                android:textColor="@color/gray"
+                android:paddingTop="24dp"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

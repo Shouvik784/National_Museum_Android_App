@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.museums.MuseumsFragment">
+
+    <TextView
+        android:id="@+id/text_museums"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:padding="8dp"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/museums">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/museums"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="24dp"
+                android:text="Popular Museums"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:text="Here You Can see the Popular Museum's Details"
+                android:textColor="@color/gray"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="City Palace"
+                android:src="@drawable/m1citypalacejaipur" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="City Palace (Jaipur, Rajasthan)"
+                android:textAlignment="center"
+                android:textColor="@color/red"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A stunning blend of Rajasthani and Mughal architecture, the City Palace Museum houses rare manuscripts, Mughal carpets, musical instruments, royal costumes, and weapons, each telling the story of Jaipur's royal heritage."
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="City Palace"
+                android:src="@drawable/m2citypalaceudaypur" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="City Palace (Udaipur, Rajasthan)"
+                android:textAlignment="center"
+                android:textColor="@color/red"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A magnificent complex of courtyards, pavilions, terraces, corridors, rooms, and hanging gardens. The museum showcases the splendor of Rajput architecture and houses many antique articles, paintings, decorative furniture, and utensils."
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Gandhi Smriti Museum"
+                android:src="@drawable/m3gandhismriti" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gandhi Smriti Museum (New Delhi)"
+                android:textAlignment="center"
+                android:textColor="@color/red"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The sacred space where Mahatma Gandhi spent his last days, now transformed into a national memorial. Features multimedia exhibitions, preserved rooms, and artifacts that document Gandhi's life and principles."
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Government Museum"
+                android:src="@drawable/m4govt" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Government Museum (Chennai, Tamil Nadu)"
+                android:textAlignment="center"
+                android:textColor="@color/red"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="India's second oldest museum, established in 1851, featuring extensive collections of archaeology, numismatics, zoology, natural history, and sculptures. Houses the famous bronze gallery with sculptures from the Chola period."
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Indian Museum"
+                android:src="@drawable/m5indian" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Indian Museum (Kolkata, West Bengal)"
+                android:textAlignment="center"
+                android:textColor="@color/red"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The oldest and largest multipurpose museum in Asia Pacific region. Features rare collections of antiques, armor, ornaments, fossils, mummies, and Mughal paintings. Home to some of the finest collections of contemporary paintings."
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="National Rail Museum"
+                android:src="@drawable/m6national" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="National Rail Museum (New Delhi)"
+                android:textAlignment="center"
+                android:textColor="@color/red"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A paradise for rail enthusiasts, featuring vintage locomotives, royal saloons, and interactive exhibits. Showcases the 165+ years of Indian railway heritage through static and working models, signaling equipment, and antique furniture."
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Patna Museum"
+                android:src="@drawable/m7patna" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Patna Museum (Patna, Bihar)"
+                android:textAlignment="center"
+                android:textColor="@color/red"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Known as Jadu Ghar locally, this museum houses a unique collection of Mauryan and Gupta period artifacts, along with a rare collection of paintings by some of the most famous artists of British India."
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Albert Hall Museum"
+                android:src="@drawable/m8albert" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Albert Hall Museum (Jaipur, Rajasthan)"
+                android:textAlignment="center"
+                android:textColor="@color/red"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The oldest museum in Rajasthan, featuring a rich collection of artifacts including paintings, jewelry, carpets, ivory, stone and metal sculptures. Its Indo-Saracenic architecture makes it a remarkable landmark."
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Victoria Memorial"
+                android:src="@drawable/m9victoria" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Victoria Memorial (Kolkata, West Bengal)"
+                android:textAlignment="center"
+                android:textColor="@color/red"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="An iconic marble building housing a museum that tells the story of British India. Features rare paintings, manuscripts, and artifacts from the colonial period, surrounded by lush gardens and reflecting pools."
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:paddingBottom="8dp" />
+
+
+            <!-- 7. Footer -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact: nationalmuseum@gmail.com\n© 2025 National Museum"
+                android:textSize="12sp"
+                android:textColor="@color/gray"
+                android:paddingTop="24dp"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

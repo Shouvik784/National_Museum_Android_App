@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "42657527709",
+    "project_id": "national-museum-android-01",
+    "storage_bucket": "national-museum-android-01.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:42657527709:android:615e09b946ad5e1eaea174",
+        "android_client_info": {
+          "package_name": "com.nationalmuseum.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-pyGS0Y3Za435ZypdE_s9B_bFji3TBJ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

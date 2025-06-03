@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/museums"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingTop="20dp"
+            android:text="Settings"
+            android:textAlignment="center"
+            android:textColor="@color/lite_white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Language -->
+        <TextView android:text="Language"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Spinner
+            android:id="@+id/languageSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Theme -->
+        <TextView android:text="Theme"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Spinner
+            android:id="@+id/themeSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Font Size -->
+        <TextView android:text="Font Size"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Spinner
+            android:id="@+id/fontSizeSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Exhibition Updates -->
+        <TextView android:text="Exhibition Updates"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Switch
+            android:id="@+id/switchUpdates"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Report a Problem -->
+        <Button
+            android:id="@+id/btnReportProblem"
+            android:text="Report a Problem"
+            android:layout_marginTop="20dp"
+            app:cornerRadius = "100dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/saveSettings"
+            android:text="Save Settings"
+            android:layout_marginTop="20dp"
+            app:cornerRadius = "100dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- App Version -->
+        <TextView
+            android:id="@+id/tvAppVersion"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="App Version: " />
+
+    </LinearLayout>
+</ScrollView>

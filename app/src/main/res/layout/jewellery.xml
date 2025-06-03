@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:text="Jewellery Collections"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:contentDescription="Head ornament (sheeshphul)"
+            android:src="@drawable/j1" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Head ornament (sheeshphul)"
+            android:textAlignment="center"
+            android:textColor="@color/blue"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="57.10/6 Gold, rubies, emeralds, diamonds, pearls Rajasthan, India late 19th century"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textColor="@color/purple_500"
+            android:paddingBottom="8dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:contentDescription="Turban ornament (sarpech)"
+            android:src="@drawable/j2" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Turban ornament (sarpech)"
+            android:textAlignment="center"
+            android:textColor="@color/blue"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="57.10/9 Gold, diamonds, emeralds Rajasthan, India 19th century"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textColor="@color/purple_500"
+            android:paddingBottom="8dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:contentDescription="Bangle (gajredar kada)"
+            android:src="@drawable/j3" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bangle (gajredar kada)"
+            android:textAlignment="center"
+            android:textColor="@color/blue"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="87.1167/1 Gold, diamonds, rubies, pearls, enamel Bikaner, Rajasthan 19th century"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textColor="@color/purple_500"
+            android:paddingBottom="8dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:contentDescription="Head ornament (jhumar)"
+            android:src="@drawable/j4" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Head ornament (jhumar)"
+            android:textAlignment="center"
+            android:textColor="@color/blue"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="89.1030 Gold, diamonds, pearls Lucknow, Uttar Pradesh Late 19th century"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textColor="@color/purple_500"
+            android:paddingBottom="8dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:contentDescription="Necklace (manga malai)"
+            android:src="@drawable/j5" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Necklace (manga malai)"
+            android:textAlignment="center"
+            android:textColor="@color/blue"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="90.752 Gold, rubies, white sapphires South India Early 20th century"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textColor="@color/purple_500"
+            android:paddingBottom="8dp" />
+
+        <!-- 7. Footer -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact: nationalmuseum@gmail.com\n© 2025 National Museum"
+            android:textSize="12sp"
+            android:textColor="@color/gray"
+            android:paddingTop="24dp"
+            android:gravity="center" />
+
+    </LinearLayout>
+</ScrollView>

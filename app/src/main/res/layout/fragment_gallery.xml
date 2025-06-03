@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.gallery.GalleryFragment">
+
+    <TextView
+        android:id="@+id/text_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:padding="8dp"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gallery">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/gallery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="24dp"
+                android:text="Museum's Gallery"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:text="Here You Can see the Popular Collection Of Our Museum"
+                android:textColor="@color/gray"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Lakshmi Statue"
+                android:src="@drawable/g1" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="214dp"
+                android:contentDescription="Lakshmi Statue"
+                android:src="@drawable/arms5" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="214dp"
+                android:contentDescription="Lakshmi Statue"
+                android:src="@drawable/g2" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="214dp"
+                android:contentDescription="Lakshmi Statue"
+                android:src="@drawable/arch5" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Lakshmi Statue"
+                android:src="@drawable/g3" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="214dp"
+                android:contentDescription="Lakshmi Statue"
+                android:src="@drawable/anth5" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="214dp"
+                android:contentDescription="Lakshmi Statue"
+                android:src="@drawable/g4" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="214dp"
+                android:contentDescription="Lakshmi Statue"
+                android:src="@drawable/auth5" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Lakshmi Statue"
+                android:src="@drawable/g5" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="214dp"
+                android:contentDescription="Lakshmi Statue"
+                android:src="@drawable/c5" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="214dp"
+                android:contentDescription="Lakshmi Statue"
+                android:src="@drawable/g6" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="214dp"
+                android:contentDescription="Lakshmi Statue"
+                android:src="@drawable/d5" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Lakshmi Statue"
+                android:src="@drawable/g7" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="214dp"
+                android:contentDescription="Lakshmi Statue"
+                android:src="@drawable/j5" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="214dp"
+                android:contentDescription="Lakshmi Statue"
+                android:src="@drawable/g8" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="214dp"
+                android:contentDescription="Lakshmi Statue"
+                android:src="@drawable/manu5" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="Lakshmi Statue"
+                android:src="@drawable/g9" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="214dp"
+                android:contentDescription="Lakshmi Statue"
+                android:src="@drawable/n5" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="214dp"
+                android:contentDescription="Lakshmi Statue"
+                android:src="@drawable/g10" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="214dp"
+                android:contentDescription="Lakshmi Statue"
+                android:src="@drawable/p5" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="214dp"
+                android:contentDescription="Lakshmi Statue"
+                android:src="@drawable/shivamask" />
+
+
+            <!-- 7. Footer -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact: nationalmuseum@gmail.com\n© 2025 National Museum"
+                android:textSize="12sp"
+                android:textColor="@color/gray"
+                android:paddingTop="24dp"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

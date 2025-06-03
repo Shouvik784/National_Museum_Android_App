@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:text="Painting Collections"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:contentDescription="Portrait of Rama (Srl Rama Chandra)"
+            android:src="@drawable/p1" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Portrait of Rama (Srl Rama Chandra)"
+            android:textAlignment="center"
+            android:textColor="@color/blue"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="63.1043 Basholi, Pahari, Jammu and Kashmir Early 18th century C.E. Water colour on paper 14.8 X 10.2 cm"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textColor="@color/purple_500"
+            android:paddingBottom="8dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:contentDescription="Portrait of Buraq"
+            android:src="@drawable/p2" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Portrait of Buraq"
+            android:textAlignment="center"
+            android:textColor="@color/blue"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="48.8/23 23.62x15.74 cms Paper"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textColor="@color/purple_500"
+            android:paddingBottom="8dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:contentDescription="Based on poetry of Jaideva's Gita-Govinda"
+            android:src="@drawable/p3" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Based on poetry of Jaideva's Gita-Govinda"
+            android:textAlignment="center"
+            android:textColor="@color/blue"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Style: Basohli, Pahari Date: 1730 C.E. Medium: opaque watercolor on paper Size: 20.5 x 31 c.m Accession no: 51.207/26"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textColor="@color/purple_500"
+            android:paddingBottom="8dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:contentDescription="The Cosmic Form of Krishna- Vasudeva"
+            android:src="@drawable/p4" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Cosmic Form of Krishna- Vasudeva"
+            android:textAlignment="center"
+            android:textColor="@color/blue"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="88.6 Opaque water color on paper pasted on cloth, Mysore style, Karnataka, Late 19th century C.E. 94 x 84 cm with frame"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textColor="@color/purple_500"
+            android:paddingBottom="8dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:contentDescription="Radha and Krishna"
+            android:src="@drawable/p5" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Radha and Krishna"
+            android:textAlignment="center"
+            android:textColor="@color/blue"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Style: Jaipur, Rajasthan, Date: circa 1750 C.E. Opaque watercolor on paper, Size :67 x 46 c.m. Accession no: 56.59/57"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textColor="@color/purple_500"
+            android:paddingBottom="8dp" />
+
+        <!-- 7. Footer -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact: nationalmuseum@gmail.com\n© 2025 National Museum"
+            android:textSize="12sp"
+            android:textColor="@color/gray"
+            android:paddingTop="24dp"
+            android:gravity="center" />
+
+    </LinearLayout>
+</ScrollView>

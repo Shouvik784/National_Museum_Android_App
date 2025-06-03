@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:text="Anthropology Collections"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:contentDescription="Marriage Litter (Rahi)"
+            android:src="@drawable/anth1" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Marriage Litter (Rahi)"
+            android:textAlignment="center"
+            android:textColor="@color/blue"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="64.1270 Wood, Cloth Jharkhand, India 20th century C.E H. 146 cm"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textColor="@color/purple_500"
+            android:paddingBottom="8dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="222dp"
+            android:contentDescription="Tent Hanging"
+            android:src="@drawable/anth2" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tent Hanging"
+            android:textAlignment="center"
+            android:textColor="@color/blue"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="70.169 Cotton, Mirror Bhavnagar, Gujarat, India 20th century C.E L. 196.5 cm"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textColor="@color/purple_500"
+            android:paddingBottom="8dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:contentDescription="Portable Shrine (Kavad)"
+            android:src="@drawable/anth3" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Portable Shrine (Kavad)"
+            android:textAlignment="center"
+            android:textColor="@color/blue"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="L-55-22 Stane Aihole, Karnataka Western Chalukya, 7th cent. CE. 135x109x23 cms"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textColor="@color/purple_500"
+            android:paddingBottom="8dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:contentDescription="Perak"
+            android:src="@drawable/anth4" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Perak"
+            android:textAlignment="center"
+            android:textColor="@color/blue"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="86.227 Textile, Fur, Semi-precious stones, Silver Ladakh, India 19th century C.E L. 69.5 cm ; Wd 40.5 cm"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textColor="@color/purple_500"
+            android:paddingBottom="8dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:contentDescription="Basket (Phen)"
+            android:src="@drawable/anth5" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Basket (Phen)"
+            android:textAlignment="center"
+            android:textColor="@color/blue"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="M01/41 Bamboo, Cane, Natural pigments Arunachal Pradesh, India 19th century C.E H. 47 cm; Dia: 40 cm"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textColor="@color/purple_500"
+            android:paddingBottom="8dp" />
+
+        <!-- 7. Footer -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact: nationalmuseum@gmail.com\n© 2025 National Museum"
+            android:textSize="12sp"
+            android:textColor="@color/gray"
+            android:paddingTop="24dp"
+            android:gravity="center" />
+
+    </LinearLayout>
+</ScrollView>

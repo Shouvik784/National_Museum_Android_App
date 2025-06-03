@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:text="Manuscript Collections"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:contentDescription="Ashtasahasrika Prajnaparamita"
+            android:src="@drawable/manu1" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ashtasahasrika Prajnaparamita"
+            android:textAlignment="center"
+            android:textColor="@color/blue"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="70.3/3 Palm-lea 12th century C.E. Sanskrit; Pala 55.0 × 5.7cms"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textColor="@color/purple_500"
+            android:paddingBottom="8dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:contentDescription="Babur Crossing the river Saun: a Baburnama folio"
+            android:src="@drawable/manu2" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Babur Crossing the river Saun: a Baburnama folio"
+            android:textAlignment="center"
+            android:textColor="@color/blue"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="50.336 Paper: c. 1598 C.E. Persian; Nastaliq 26 x 17cm"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textColor="@color/purple_500"
+            android:paddingBottom="8dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:contentDescription="Babur supervising construction of reservoir at Istabul near Kabul"
+            android:src="@drawable/manu3" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Babur supervising construction of reservoir at Istabul near Kabul"
+            android:textAlignment="center"
+            android:textColor="@color/blue"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="50.336 Paper c. 1598 C.E. Persian; Nastaliq 26 x 17cm"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textColor="@color/purple_500"
+            android:paddingBottom="8dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:contentDescription="Jain Kalpasutra"
+            android:src="@drawable/manu4" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jain Kalpasutra"
+            android:textAlignment="center"
+            android:textColor="@color/blue"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="48.20 Pape 15th century C.E. Prakrit; Devanagari 12 x30cm"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textColor="@color/purple_500"
+            android:paddingBottom="8dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:contentDescription="Kammavacha"
+            android:src="@drawable/manu5" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kammavacha"
+            android:textAlignment="center"
+            android:textColor="@color/blue"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="51.20 Copperplate Manuscript 19th Century C.E. Pall; Burmese. 54 × 10.5 cms."
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textColor="@color/purple_500"
+            android:paddingBottom="8dp" />
+
+        <!-- 7. Footer -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact: nationalmuseum@gmail.com\n© 2025 National Museum"
+            android:textSize="12sp"
+            android:textColor="@color/gray"
+            android:paddingTop="24dp"
+            android:gravity="center" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Logo -->
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/appicon"
+            android:layout_marginBottom="2dp"
+            android:contentDescription="App Logo" />
+
+        <!-- App Name -->
+        <TextView
+            android:id="@+id/tvAppName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="National Museum"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/lite_white"
+            android:layout_marginBottom="16dp" />
+
+        <!-- About Description -->
+        <TextView
+            android:id="@+id/tvDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The National Museum Virtual Tour app offers an immersive experience into the cultural, artistic, and historical legacy of our nation. Explore exhibits, artifacts, and curated collections from the comfort of your device."
+            android:textSize="16sp"
+            android:textColor="#444444"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Mission -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🎯 Our Mission\n\n To preserve, protect, and present the cultural heritage of our nation, making it accessible to all while inspiring learning and appreciation for our shared history."
+            android:textSize="15sp"
+            android:textColor="#444444"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Vision -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🎯 Our Vision\n\n To be a leading cultural institution that connects people with history, fostering understanding and appreciation of our diverse heritage through innovative exhibitions and programs."
+            android:textSize="15sp"
+            android:textColor="#444444"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Foundation -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🎯 Museum Foundation\n\n Established as a small collection of historical artifacts in 2022"
+            android:textSize="15sp"
+            android:textColor="#444444"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Revolution -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🎯 Digital Revolution\n\n Introduction of interactive exhibits and digital archives in 2023"
+            android:textSize="15sp"
+            android:textColor="#444444"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Renaissance -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🎯 Modern Renaissance\n\n Complete renovation and modernization of facilities in 2025"
+            android:textSize="15sp"
+            android:textColor="#444444"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Features -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✨ Highlights:\n\n• 3D Virtual Exhibits\n• Educational Content\n• Real-time Updates\n• Interactive Maps"
+            android:textSize="15sp"
+            android:textColor="#444444"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Contact Info -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📩 Contact Us:\nEmail: info@nationalmuseum.com\nPhone: +123 456 7890"
+            android:textSize="15sp"
+            android:textColor="#444444"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Website -->
+        <TextView
+            android:id="@+id/tvWebsite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🌐 Visit Website"
+            android:textColor="#0D47A1"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <!-- 7. Footer -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact: nationalmuseum@gmail.com\n© 2025 National Museum"
+            android:textSize="12sp"
+            android:textColor="@color/lite_white"
+            android:paddingTop="24dp"
+            android:gravity="center" />
+
+    </LinearLayout>
+</ScrollView>

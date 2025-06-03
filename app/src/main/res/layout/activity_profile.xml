@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/museums"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingTop="20dp"
+            android:text="Profile"
+            android:textAlignment="center"
+            android:textColor="@color/lite_white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Profile Picture -->
+        <ImageView
+            android:id="@+id/imgProfilePic"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/outline_account_circle_24"
+            android:scaleType="centerCrop"
+            android:contentDescription="Profile Picture" />
+
+        <!-- First Name -->
+        <EditText
+            android:id="@+id/tvFullName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Full Name"
+            android:inputType="textPersonName"
+            android:layout_marginTop="20dp" />
+
+        <!-- Phone Number -->
+        <EditText
+            android:id="@+id/tvPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:layout_marginTop="20dp" />
+
+        <!-- Date of Birth -->
+        <EditText
+            android:id="@+id/tvDob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Date of Birth (dd/mm/yyyy)"
+            android:inputType="date"
+            android:layout_marginTop="20dp" />
+
+        <!-- Edit Profile Button -->
+        <Button
+            android:id="@+id/btnEditProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit Profile"
+            app:cornerRadius = "100dp"
+            android:layout_marginTop="20dp" />
+
+        <!-- Change Password -->
+        <Button
+            android:id="@+id/btnChangePassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Change Password"
+            app:cornerRadius = "100dp"
+            android:layout_marginTop="20dp" />
+
+        <!-- Logout -->
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            app:cornerRadius = "100dp"
+            android:layout_marginTop="20dp" />
+
+    </LinearLayout>
+</ScrollView>

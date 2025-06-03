@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Hero Section / Banner -->
+        <ImageView
+            android:id="@+id/heroImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/a7" />
+
+        <!-- Museum Introduction -->
+        <TextView
+            android:id="@+id/text_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome to the Virtual Museum"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:paddingTop="12dp"
+            android:textColor="#212121" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Explore a curated collection of historical and cultural masterpieces from all over India."
+            android:textSize="16sp"
+            android:textColor="#555555"
+            android:paddingBottom="16dp" />
+
+        <!-- Featured Exhibits -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Featured Exhibits"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"
+            android:textColor="#000000" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!-- Example Exhibit Card -->
+                <ImageView
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_marginEnd="8dp"
+                    android:src="@drawable/a1"
+                    android:scaleType="centerCrop" />
+
+                <ImageView
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_marginEnd="8dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/a2" />
+
+                <ImageView
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_marginEnd="8dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/a3" />
+
+                <ImageView
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_marginEnd="8dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/a4" />
+
+                <ImageView
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_marginEnd="8dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/a5" />
+
+                <ImageView
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_marginEnd="8dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/a6" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <!-- Categories / Collections -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Collections"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingBottom="8dp" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="2"
+            android:layout_marginBottom="16dp">
+
+            <Button
+                android:id="@+id/paintingsButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                app:cornerRadius = "20dp"
+                android:layout_marginRight="10dp"
+                android:text="Paintings"
+                android:textSize="12sp"/>
+
+            <Button
+                android:id="@+id/AnthroButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                app:cornerRadius = "20dp"
+                android:layout_marginLeft="10dp"
+                android:text="Anthropology"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/JewelleryButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                app:cornerRadius = "20dp"
+                android:layout_marginRight="10dp"
+                android:text="Jewellery"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/ManuscriptButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                app:cornerRadius = "20dp"
+                android:layout_marginLeft="10dp"
+                android:text="Manuscript"
+                android:textSize="12sp" />
+        </GridLayout>
+
+        <!-- Upcoming Events -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upcoming Events"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Virtual Tour: Ancient Egypt – May 30, 2025"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:paddingBottom="4dp" />
+
+        <!-- Artist / Curator Spotlight -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spotlight: Leonardo da Vinci"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:textColor="#444444"
+            android:paddingBottom="16dp" />
+
+        <!-- News and Updates -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Museum News"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New digital exhibit on Ancient Rome now available."
+            android:textColor="#555555"
+            android:paddingBottom="16dp" />
+
+        <!-- Contact and Social Media -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact Us: info@nationalmuseum.com"
+            android:textColor="#777777"
+            android:textSize="14sp"
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Follow us on Facebook, Instagram, Youtube"
+            android:textColor="#777777"
+            android:textSize="14sp"
+            android:paddingBottom="1dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <ImageView
+                android:id="@+id/facebook_icon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="16dp"
+                android:clickable="true"
+                android:contentDescription="Facebook Icon"
+                android:focusable="true"
+                android:src="@drawable/facebook" />
+
+            <ImageView
+                android:id="@+id/instagram_icon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="16dp"
+                android:clickable="true"
+                android:contentDescription="Instagram Icon"
+                android:focusable="true"
+                android:src="@drawable/instagram" />
+
+            <ImageView
+                android:id="@+id/youtube_icon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="16dp"
+                android:clickable="true"
+                android:contentDescription="Youtube Icon"
+                android:focusable="true"
+                android:src="@drawable/youtube" />
+        </LinearLayout>
+
+        <!-- 7. Footer -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact: nationalmuseum@gmail.com\n© 2025 National Museum"
+            android:textSize="12sp"
+            android:textColor="@color/gray"
+            android:paddingTop="24dp"
+            android:gravity="center" />
+
+    </LinearLayout>
+</ScrollView>
